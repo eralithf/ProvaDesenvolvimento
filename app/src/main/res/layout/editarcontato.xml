@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nome"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etTelPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Telefone Principal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etTelSecundario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Telefone Secundario"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etDataDeNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Data de Nascimento"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Endereço"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="CPF"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnSalvarEditar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnExcluirEditar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Excluir" />
+
+        <Button
+            android:id="@+id/btnVoltarEditar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+    </LinearLayout>
+</LinearLayout>
